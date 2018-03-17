@@ -1,22 +1,9 @@
 body {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font: 400 20px/1.5 Helvetica, Arial, sans-serif;
   color: #333;
   margin: 0;
   background-color: #fff
-}
-
-a, a:link, a:active {
-  color: #43853d;
-  border-radius: 2px
-}
-
-p a {
-  padding-left: 2px;
-  padding-right: 2px;
-  margin-left: -2px;
-  margin-right: -2px
 }
 
 img {
@@ -25,24 +12,14 @@ img {
 }
 
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
   min-height: 100vh;
   margin: 0
 }
 
-footer {
-  padding: 0 20px
-}
-
 .container {
   width: 100%;
-  max-width: 980px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -73,10 +50,6 @@ header>.container {
 
 header li {
   position: relative
-}
-
-header nav {
-  cursor: default
 }
 
 header nav a, header nav a:link, header nav a:active {
@@ -120,18 +93,6 @@ header nav a, header nav a:link, header nav a:active {
   }
 }
 
-@media screen and (max-width:480px) {
-  header li {
-    width: 50%;
-    float: left;
-    padding: 0;
-    margin: 0
-  }
-  header a, header a:link, header a:active {
-    padding: 0
-  }
-}
-
 #logo {
   display: block;
   border: none;
@@ -143,22 +104,4 @@ header nav a, header nav a:link, header nav a:active {
   border: none;
   max-height: 75px;
   max-width: 180px
-}
-
-footer {
-  margin-top: 2em;
-  background-color: #333;
-  padding: 0 0;
-}
-
-footer a, footer a:link, footer a:active {
-  color: #ccc
-}
-
-footer.no-margin-top {
-  margin-top: 0
-}
-
-html {
-  scroll-behavior: smooth
 }
